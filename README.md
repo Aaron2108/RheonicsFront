@@ -22,6 +22,15 @@ This project demonstrates:
 
 ---
 
+## Architecture
+
+This project follows a **component-based architecture** using React and Vite.  
+- Each UI element is encapsulated in its own folder under `src/components`, with dedicated `.jsx` and `.css` files.  
+- Static data is stored in `src/constants` to separate configuration from presentation logic.  
+- Assets such as images and icons are organized in `src/assets`.  
+- This modular structure ensures **reusability, scalability, and maintainability**, following modern frontend development best practices.
+
+
 # Technologies Used
 
 - React
@@ -31,23 +40,48 @@ This project demonstrates:
 
 ---
 
+## Prerequisites
+
+To run this project you need to have installed:
+
+- **Node.js** (recommended version: 18 or higher)  
+- **npm** (comes bundled with Node.js)  
+
+You can verify if they are installed by running the following commands in your terminal:
+
+```bash
+node -v
+npm -v
+
+
 # Project Structure
 
 ```bash
-src/
 │
-├── components/
-│   ├── Navbar/
-│   ├── NewsCard/
-│   └── NewsInsightsSection/
+├── node_modules/              # Project dependencies
+├── public/                    # Static assets and public files
+├── src/                       # Main source folder
+│   ├── assets/                # Images, icons, and other media
+│   ├── components/            # Reusable React components
+│   │   ├── ContactBar/        # Contact information bar
+│   │   ├── Header/            # Page header component
+│   │   ├── icons/             # Custom icon components
+│   │   ├── Inicio/            # Home section component
+│   │   ├── Navbar/            # Navigation bar component
+│   │   ├── NewCard/           # Individual news card component
+│   │   └── NewsInsightsSection/ # Main news and insights section
+│   ├── constants/             # Static data and configuration files
+│   │   ├── navigation.js      # Navigation links and menu items
+│   │   └── news.js            # News data and content
+│   └── App.jsx                # Root React component
 │
-├── constants/
-│   ├── navigation.js
-│   └── news.js
-│
-├── assets/
-│
-└── App.jsx
+├── .gitignore                 # Git ignored files
+├── eslint.config.js           # ESLint configuration
+├── index.html                 # Main HTML entry point
+├── package-lock.json          # Dependency lock file
+├── package.json               # Project metadata and scripts
+├── README.md                  # Project documentation
+└── vite.config.js             # Vite configuration file
 ```
 
 # How to Run the Project
