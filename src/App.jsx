@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router";
-import Header from "./components/Header/Header";
-import NewsInsightsSection from "./components/NewsInsightsSection/NewsInsightsSection";
 import MainLayout from "./layouts/MainLayout";
+import HomePage from "./components/pages/HomePage";
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
 
         <Routes>
           <Route element={<MainLayout/>}>
-            <Route path="/" element={<NewsInsightsSection/>} />
+            <Route path="/" element={<HomePage/>} />
           </Route>
         </Routes>
     </>

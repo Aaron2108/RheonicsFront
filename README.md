@@ -53,10 +53,31 @@ You can verify if they are installed by running the following commands in your t
 node -v
 npm -v
 
+## Dependencies
+
+This project uses the following libraries:
+
+### Production
+- **react** ^19.2.6 — Core library for building user interfaces
+- **react-dom** ^19.2.6 — DOM bindings for React
+- **react-router** ^7.15.0 — Routing library for navigation
+
+### Development
+- **vite** ^8.0.12 — Fast build tool and dev server
+- **@vitejs/plugin-react** ^6.0.1 — React plugin for Vite
+- **eslint** ^10.3.0 — Linting tool for code quality
+- **@eslint/js** ^10.0.1 — ESLint JavaScript rules
+- **eslint-plugin-react-hooks** ^7.1.1 — ESLint rules for React hooks
+- **eslint-plugin-react-refresh** ^0.5.2 — ESLint rules for React Fast Refresh
+- **globals** ^17.6.0 — Global variables definitions
+- **@types/react** ^19.2.14 — TypeScript type definitions for React
+- **@types/react-dom** ^19.2.3 — TypeScript type definitions for React DOM
+
 
 # Project Structure
 
 ```bash
+RHEONICSFRONT/
 │
 ├── node_modules/              # Project dependencies
 ├── public/                    # Static assets and public files
@@ -73,6 +94,10 @@ npm -v
 │   ├── constants/             # Static data and configuration files
 │   │   ├── navigation.js      # Navigation links and menu items
 │   │   └── news.js            # News data and content
+│   ├── layouts/               # Layout components
+│   │   └── MainLayout.jsx     # Main reusable layout
+│   ├── pages/                 # Page-level components (views)
+│   │   └── HomePage.jsx       # Home page view
 │   └── App.jsx                # Root React component
 │
 ├── .gitignore                 # Git ignored files
@@ -82,7 +107,7 @@ npm -v
 ├── package.json               # Project metadata and scripts
 ├── README.md                  # Project documentation
 └── vite.config.js             # Vite configuration file
-```
+
 
 # How to Run the Project
 
