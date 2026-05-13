@@ -48,6 +48,7 @@ src/
 ├── assets/
 │
 └── App.jsx
+```
 
 # How to Run the Project
 
