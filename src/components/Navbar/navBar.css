@@ -1,0 +1,19 @@
+.navbar{
+    width: 59%;
+    max-height: 109px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px 0 80px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #616161;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.navbar__list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
