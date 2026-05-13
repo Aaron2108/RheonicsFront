@@ -14,7 +14,7 @@ const NewsInsightsSection = () => {
         </p>
       <ul className="news-insights__grid">
         { NEWS_DATA.map((newItem, i) => (
-            <li key={newItem.id} className="news-insights__item">
+            <li key={i} className="news-insights__item">
                 <NewsCard {...newItem} />
             </li>
         )) }
