@@ -63,3 +63,152 @@ export const SearchIcon = ({
     <path d="M10.5 19c1.98 0 3.81-.69 5.25-1.83L20 21.42l1.41-1.41-4.25-4.25a8.47 8.47 0 0 0 1.83-5.25c0-4.69-3.81-8.5-8.5-8.5S2 5.81 2 10.5 5.81 19 10.5 19m0-15c3.58 0 6.5 2.92 6.5 6.5S14.08 17 10.5 17 4 14.08 4 10.5 6.92 4 10.5 4"></path>
   </svg>
 );
+
+export const LinkedInIcon = ({}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_1_283)">
+      <path
+        d="M13.3333 6.66666C14.6593 6.66666 15.9311 7.19344 16.8688 8.13112C17.8065 9.0688 18.3333 10.3406 18.3333 11.6667V17.5H14.9999V11.6667C14.9999 11.2246 14.8243 10.8007 14.5118 10.4881C14.1992 10.1756 13.7753 9.99999 13.3333 9.99999C12.8912 9.99999 12.4673 10.1756 12.1547 10.4881C11.8422 10.8007 11.6666 11.2246 11.6666 11.6667V17.5H8.33325V11.6667C8.33325 10.3406 8.86004 9.0688 9.79772 8.13112C10.7354 7.19344 12.0072 6.66666 13.3333 6.66666Z"
+        stroke="#0A66C2"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M5.00008 7.5H1.66675V17.5H5.00008V7.5Z"
+        stroke="#0A66C2"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M3.33341 4.99999C4.25389 4.99999 5.00008 4.2538 5.00008 3.33332C5.00008 2.41285 4.25389 1.66666 3.33341 1.66666C2.41294 1.66666 1.66675 2.41285 1.66675 3.33332C1.66675 4.2538 2.41294 4.99999 3.33341 4.99999Z"
+        stroke="#0A66C2"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_1_283">
+        <rect width="20" height="20" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const CalendarIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_1_343)">
+      <path
+        d="M6.66675 1.66666V4.99999"
+        stroke="#155DFC"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M13.3333 1.66666V4.99999"
+        stroke="#155DFC"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M15.8333 3.33334H4.16667C3.24619 3.33334 2.5 4.07954 2.5 5.00001V16.6667C2.5 17.5872 3.24619 18.3333 4.16667 18.3333H15.8333C16.7538 18.3333 17.5 17.5872 17.5 16.6667V5.00001C17.5 4.07954 16.7538 3.33334 15.8333 3.33334Z"
+        stroke="#155DFC"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M2.5 8.33334H17.5"
+        stroke="#155DFC"
+        stroke-width="1.66667"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_1_343">
+        <rect width="20" height="20" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const MapIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_1_361)">
+      <path
+        d="M13.3334 6.66668C13.3334 9.99534 9.64075 13.462 8.40075 14.5327C8.28523 14.6195 8.14461 14.6665 8.00008 14.6665C7.85555 14.6665 7.71493 14.6195 7.59941 14.5327C6.35941 13.462 2.66675 9.99534 2.66675 6.66668C2.66675 5.25219 3.22865 3.89563 4.22885 2.89544C5.22904 1.89525 6.58559 1.33334 8.00008 1.33334C9.41457 1.33334 10.7711 1.89525 11.7713 2.89544C12.7715 3.89563 13.3334 5.25219 13.3334 6.66668Z"
+        stroke="#6A7282"
+        stroke-width="1.33333"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M8 8.66666C9.10457 8.66666 10 7.77123 10 6.66666C10 5.56209 9.10457 4.66666 8 4.66666C6.89543 4.66666 6 5.56209 6 6.66666C6 7.77123 6.89543 8.66666 8 8.66666Z"
+        stroke="#6A7282"
+        stroke-width="1.33333"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_1_361">
+        <rect width="16" height="16" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const RelojIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_1_294)">
+      <path
+        d="M7.99992 14.6667C11.6818 14.6667 14.6666 11.6819 14.6666 8.00001C14.6666 4.31811 11.6818 1.33334 7.99992 1.33334C4.31802 1.33334 1.33325 4.31811 1.33325 8.00001C1.33325 11.6819 4.31802 14.6667 7.99992 14.6667Z"
+        stroke="#6A7282"
+        stroke-width="1.33333"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M8 4V8L10.6667 9.33333"
+        stroke="#6A7282"
+        stroke-width="1.33333"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_1_294">
+        <rect width="16" height="16" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </svg>
+);

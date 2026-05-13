@@ -8,8 +8,8 @@ const Navbar = () => (
       <img
         src="https://rheonics.com/wp-content/uploads/2024/08/Rheonics_Logo_blue_singleline-medium-01-scaled.png"
         alt="Rheonics"
-        width="250"
-        height="60"
+        width="180"
+        height="50"
         loading="eager"
       />
     </a>
@@ -23,7 +23,7 @@ const Navbar = () => (
           </a>
         </li>
       ))}
-      <SearchIcon size={20} color="#616161" className="navbar__search-icon" />
+      <SearchIcon size={16} color="#616161" className="navbar__search-icon" />
     </ul>
   </nav>
 );

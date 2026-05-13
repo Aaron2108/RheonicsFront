@@ -1,3 +1,4 @@
+import "./contactBar.css"
 import { CONTACT_INFO } from "../../constants/navigation";
 import { EmailIcon, PhoneIcon } from "../icons/PhoneIcon";
 

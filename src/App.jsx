@@ -1,10 +1,13 @@
 import Header from "./components/Header/Header";
+import NewsInsightsSection from "./components/NewsInsightsSection/NewsInsightsSection";
 
 function App() {
   return (
     <>
       <Header />
-      <main></main>
+      <main>
+        <NewsInsightsSection/>
+      </main>
     </>
   );
 }

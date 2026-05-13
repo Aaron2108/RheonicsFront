@@ -5,30 +5,3 @@
     align-items: center;
     justify-content: center;
 }
-.contact-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid #eeeeee;
-    height: 45px;
-    align-items: center;
-}
-.contact-bar{
-    width: 59%;
-}
-.contact-bar__list{
-    width: 100%;
-    display: flex;
-    gap: 18px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.contact-bar__item{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    color: black;
-    font-weight: 600;
-}

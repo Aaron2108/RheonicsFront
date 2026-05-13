@@ -1,0 +1,43 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eeeeee;
+    height: 38px;
+    align-items: center;
+}
+.contact-bar{
+    width: 90%;
+}
+.contact-bar__list{
+    width: 100%;
+    display: flex;
+    gap: 18px;
+
+    font-size: 12px;
+}
+.contact-bar__item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+@media (min-width: 1024px){
+    .contact-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eeeeee;
+    height: 38px;
+    align-items: center;
+}
+.contact-bar{
+    width: 1024px;
+}
+}
+@media(max-width: 480px){
+    .contact-container{
+        display: none;
+    }
+}

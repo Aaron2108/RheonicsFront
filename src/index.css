@@ -34,3 +34,10 @@ input, textarea, select {
   background: none;
   font: inherit;
 }
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
